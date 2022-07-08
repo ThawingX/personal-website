@@ -1,0 +1,15 @@
+<div class="container">
+  <nav>
+    <div class="spacer"></div>
+    <div class="right">
+      <a [routerLink]="['home']" routerLinkActive="router-link-active">home</a>
+      <a [routerLink]="['blog']" routerLinkActive="router-link-active">blog</a>
+      <a [routerLink]="['proj']" routerLinkActive="router-link-active"
+        >projects</a
+      >
+    </div>
+  </nav>
+  <main>
+    <router-outlet></router-outlet>
+  </main>
+</div>
