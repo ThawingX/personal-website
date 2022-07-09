@@ -1,1 +1,12 @@
-<p>blog works!</p>
+<div class="container">
+  <aside>
+    <a [routerLink]="['blog1']" routerLinkActive="router-link-active"
+    >blog1</a
+  >
+  <a [routerLink]="['blog2']" routerLinkActive="router-link-active"
+    >blog2</a
+  >
+ 
+  </aside>
+  <main><router-outlet></router-outlet></main>
+</div>

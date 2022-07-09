@@ -6,8 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./project.component.scss']
 })
 export class ProjectComponent implements OnInit {
-
-  constructor() { }
+  data:any[]= [{name:'test',time:'2022'},{name:"tx",time:"2022"}]
+  constructor() {
+    
+  }
 
   ngOnInit(): void {
   }
