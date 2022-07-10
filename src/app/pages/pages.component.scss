@@ -14,14 +14,26 @@ nav {
   justify-content: right;
   width: 90vw;
 }
+
 .right {
   width: 30vw;
   display: flex;
   justify-content: space-evenly;
+  a{
+    color:var(--font-color)
+  }
 }
-
+.router-link-active {
+  color:var(--active-color)!important;
+}
 
 main{
   margin: 10vmin;
-  width: 50vw;
+  width: 70vw;
+}
+.spacer{
+  width:100vw;
+}
+footer{
+  color:var(--font-color)
 }

@@ -1,5 +1,17 @@
+.container{
+  width: 100%;
+}
 p {
   font-size: 1.2rem;
-  color:var(--font-color);
-  margin:1rem;
+  color: var(--font-color);
+  margin: 1rem;
+}
+
+a {
+  color: var(--font-color);
+  border-bottom: 1px solid rgba(125,125,125,.3);
+  &:hover {
+    border-bottom:1px solid rgba(125,125,125,.8)
+  }
+  transition: border .3s ease-in-out;
 }
