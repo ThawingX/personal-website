@@ -1,18 +1,19 @@
 .container {
   width: 100%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
 }
 aside {
-  width: 5rem;
+  width: 7rem;
   display: flex;
   flex-direction: column;
+  height: 100%;
   a+a{
     margin-top: 2rem;
   }
 }
 main {
-  width: 18rem;
+  width:100%;
   display: block;
   right:1rem;
 }

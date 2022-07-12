@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 
-@import './_variables.scss';
+@import "./_variables.scss";
 
 * {
   margin: 0;
@@ -8,12 +8,18 @@
   text-decoration: none;
 }
 
-html{
-  font-size:26.6667vw *0.16;
+html {
+  @media (min-width: 300px) {
+    font-size: 26.6667vw * 0.16;
+  }
+  @media (min-width: 700px) {
+    font-size: 13.3334vw * 0.16;
+  }
+  // @media (min-width:1440px){
+  //   font-size: 10vw* 0.16;
+  // } 
 }
 
-
-
 .router-link-active {
-  color:var(--active-color);
+  color: var(--active-color);
 }

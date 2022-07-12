@@ -3,39 +3,51 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
 }
+
 .logo {
   position: absolute;
   left: 1rem;
+  width:2rem;
+}
+header{
+  display: flex;
+  justify-content: flex-end;
+  width:100%;
 }
 nav {
   display: flex;
   justify-content: right;
-  width:20rem;
+  width: 20rem;
 }
 
 .right {
   width: 10rem;
   display: flex;
   justify-content: space-evenly;
-  a{
-    color:var(--font-color);
-    margin:0 0.2rem;
+  a {
+    color: var(--font-color);
+    margin: 0 0.5rem;
   }
 }
+
 .router-link-active {
-  color:var(--active-color)!important;
+  color: var(--active-color) !important;
 }
 
-main{
-  margin: 2rem 0 ;
+main {
+  margin: 2rem 0;
   width: 100%;
   overflow: hidden;
 }
-.spacer{
-  width:100vw;
+
+.spacer {
+  width: 100vw;
 }
-footer{
-  color:var(--font-color)
+
+footer {
+  width:100%;
+  display: flex;
+  justify-content: center;
+  color: var(--font-color);
 }
