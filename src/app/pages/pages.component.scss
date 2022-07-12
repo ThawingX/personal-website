@@ -7,20 +7,21 @@
 }
 .logo {
   position: absolute;
-  left: 5vw;
+  left: 1rem;
 }
 nav {
   display: flex;
   justify-content: right;
-  width: 90vw;
+  width:20rem;
 }
 
 .right {
-  width: 30vw;
+  width: 10rem;
   display: flex;
   justify-content: space-evenly;
   a{
-    color:var(--font-color)
+    color:var(--font-color);
+    margin:0 0.2rem;
   }
 }
 .router-link-active {
@@ -28,8 +29,9 @@ nav {
 }
 
 main{
-  margin: 10vmin;
-  width: 70vw;
+  margin: 2rem 0 ;
+  width: 100%;
+  overflow: hidden;
 }
 .spacer{
   width:100vw;

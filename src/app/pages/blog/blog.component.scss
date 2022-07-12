@@ -1,12 +1,10 @@
 .container {
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
 }
 aside {
-  position: absolute;
-  left: 2rem;
-  width: 20vw;
+  width: 5rem;
   display: flex;
   flex-direction: column;
   a+a{
@@ -14,5 +12,7 @@ aside {
   }
 }
 main {
-  width: 100%;
+  width: 18rem;
+  display: block;
+  right:1rem;
 }
