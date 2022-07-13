@@ -5,6 +5,6 @@ import { BlogRoutingModule } from './blog-routing.module';
 import { MarkdownModule } from 'ngx-markdown';
 @NgModule({
   declarations: [BlogComponent],
-  imports: [CommonModule, BlogRoutingModule,MarkdownModule.forRoot()],
+  imports: [CommonModule, BlogRoutingModule, MarkdownModule.forRoot()],
 })
 export class BlogModule {}

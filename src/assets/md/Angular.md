@@ -4,7 +4,7 @@
 
 ### 创建项目
 
-```markdown
+```
 ng new name 
 		参数： --skip-install  跳过依赖安装
 ```
@@ -17,7 +17,7 @@ ng new name
 
 ### 装饰器
 
-```markdown
+```
 对值进行元编程
 依赖 Object.defineProperty()
 基础用法1：
