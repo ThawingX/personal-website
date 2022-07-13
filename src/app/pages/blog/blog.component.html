@@ -1,7 +1,21 @@
 <div class="container">
   <aside>
-    <a class="items" [routerLink]="['blog1']" routerLinkActive="blog-item-active">blog1</a>
-    <a class="items" [routerLink]="['blog2']" routerLinkActive="blog-item-active">blog2</a>
+    <a
+      class="items"
+      [routerLink]="['blog1']"
+      routerLinkActive="blog-item-active"
+      >blog1</a
+    >
+    <a
+      class="items"
+      [routerLink]="['blog2']"
+      routerLinkActive="blog-item-active"
+      >blog2</a
+    >
   </aside>
-  <main><router-outlet></router-outlet></main>
+  <main>
+    <markdown
+      [src]="'../../../assets/md/Angular.md'"
+    ></markdown>
+  </main>
 </div>

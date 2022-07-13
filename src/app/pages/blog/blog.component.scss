@@ -7,12 +7,12 @@ aside {
   width: 7rem;
   display: flex;
   flex-direction: column;
-  height: 100%;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   box-shadow: 0 0 10px 10px var(--hover-color);
   background-color: var(--bg-color);
   margin:1rem;
+  flex-shrink: 0;
 }
 .items {
   height: 3rem;
@@ -25,7 +25,7 @@ aside {
     color:black;
     font-weight: bold;
   }
- 
+  
   transition:.2s ease-in-out;
 }
 .blog-item-active{
@@ -35,7 +35,6 @@ aside {
 }
 
 main {
-  width: 100%;
-  display: block;
-  right: 1rem;
+  position:relative;
+  width: 80%;
 }
