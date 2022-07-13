@@ -15,9 +15,12 @@ html {
   @media (min-width: 700px) {
     font-size: 13.3334vw * 0.16;
   }
-  // @media (min-width:1440px){
-  //   font-size: 10vw* 0.16;
-  // } 
+  @media (min-width:1000px){
+    font-size: 10vw* 0.16;
+  }
+  @media (min-width:2000px){
+    font-size: 5vw* 0.16;
+  }
 }
 
 .router-link-active {

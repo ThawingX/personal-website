@@ -1,10 +1,20 @@
 .container{
-  margin:2rem;
+  // width:50vw;
+  @media screen and (min-width:700px) {
+    width:50vw;
+  }
+  position:relative;
+  margin:2rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap:wrap;
 }
 p {
   font-size: 1rem;
   color: var(--font-color);
   margin: 0.5rem;
+  width: 100%;
 }
 
 a {
@@ -14,4 +24,9 @@ a {
     border-bottom:1px solid rgba(125,125,125,.8)
   }
   transition: border .3s ease-in-out;
+}
+
+.flex-single{
+  flex-basis: 100%;
+  width:100%;
 }

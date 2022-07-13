@@ -8,12 +8,34 @@ aside {
   display: flex;
   flex-direction: column;
   height: 100%;
-  a+a{
-    margin-top: 2rem;
-  }
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 0 10px 10px var(--hover-color);
+  background-color: var(--bg-color);
+  margin:1rem;
 }
+.items {
+  height: 3rem;
+  text-align: center;
+  line-height: 3rem;
+  color: var(--font-color);
+  
+  &:hover {
+    background-color: var(--hover-color);
+    color:black;
+    font-weight: bold;
+  }
+ 
+  transition:.2s ease-in-out;
+}
+.blog-item-active{
+  color:black;
+  font-weight: bold;
+  background-color: var(--hover-color);
+}
+
 main {
-  width:100%;
+  width: 100%;
   display: block;
-  right:1rem;
+  right: 1rem;
 }
