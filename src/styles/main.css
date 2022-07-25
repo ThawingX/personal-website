@@ -1,0 +1,27 @@
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  /* 个人的一个多宽适应处理 */
+  @media (min-width: 300px) {
+    font-size: 26.6667vw * 0.16;
+  }
+  @media (min-width: 700px) {
+    font-size: 13.3334vw * 0.16;
+  }
+  @media (min-width:1000px){
+    font-size: 10vw* 0.16;
+  }
+  @media (min-width:2000px){
+    font-size: 5vw* 0.16;
+  }
+}
+html.dark {
+  background: #121212;
+  
+}
